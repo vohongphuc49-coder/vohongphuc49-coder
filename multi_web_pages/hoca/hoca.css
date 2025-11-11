@@ -1,0 +1,167 @@
+#shark{
+    left: 100px; top: 400px;
+    position: absolute;
+    animation-name: Shark;
+    animation-duration : 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Shark {
+   0% {left: 100px; top: 400px;transform: scaleX(1) scale(0.8);} 
+   10% {left: 500px;top: 490px;}
+   20% {left: 800px;top: 500px;}
+   50% {left: 1100px;top: 40px;transform: scaleX(1) scale(1);}
+   51% {transform: scaleX(-1);}
+   60% {left: 800px;top: 300px;transform: scaleX(-1) ;}
+   65% {left: 500px;top: 480px;transform: scaleX(-1) scale(1.2);}
+   70% {left: 300px;top: 400px;transform: scaleX(-1);}
+   71% {transform: scaleX(1)}
+   80% {left: 500px;top: 300px;transform: scaleX(1) scale(0.9);}
+   81% {transform: scaleX(-1);}
+   90% {left: 300px;top: 100px;transform: scaleX(-1);}
+   91% {transform: scaleX(-1)}
+   100% {left: 100px; top: 400px;transform: scaleX(-1) scale(0.8);} 
+}
+#ca{
+    left: 100px; top: 400px;
+    position: absolute;
+    animation-name: ca;
+    animation-duration : 18s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes ca{
+    0% {left: 30px;top: 420px;transform: scaleX(-1);}
+    20% {left: 550px;top: 350px;}
+    40% {left: 1150px;top: 560px;transform: scaleX(-1) scale(1.1);}
+    60% {left: 1350px;top: 400px;transform: scaleX(-1);}
+    61% {transform: scaleX(1);}
+    80% {left: 1200px;top: 560px;transform: scaleX(1) scale(0.9);}
+    90% {left: 500px;top: 400px;}
+    99% {transform: scaleX(1);}
+    100% {left: 30px;top: 420px;transform: scaleX(-1);}
+}
+#ca-2{
+    left: 100px; top: 400px;
+    position: absolute;
+    animation-name: ca-2;
+    animation-duration : 18s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes ca-2{
+    0% {left: 40px;top: 380px;transform: scaleX(-1)scale(0.8);}
+    20% {left: 570px;top: 360px;}
+    40% {left: 1250px;top: 520px;transform: scaleX(-1) scale(1.1);}
+    60% {left: 1320px;top: 430px;transform: scaleX(-1) scale(1);}
+    61% {transform: scaleX(1);}
+    80% {left: 1080px;top: 520px;transform: scaleX(1) scale(0.9);}
+    90% {left: 520px;top: 360px;}
+    99% {transform: scaleX(1);}
+    100% {left: 40px;top: 380px;transform: scaleX(-1);}
+}
+#ca-3{
+    left: 100px; top: 400px;
+    position: absolute;
+    animation-name: ca-3;
+    animation-duration : 18s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes ca-3{
+    0% {left: 30px;top: 350px;transform: scaleX(-1);}
+    20% {left: 530px;top: 370px;}
+    40% {left: 1120px;top: 550px;transform: scaleX(-1)scale(0.9);}
+    60% {left: 1280px;top: 380px;transform: scaleX(-1);}
+    61% {transform: scaleX(1);}
+    80% {left: 1115px;top: 535px;transform: scaleX(1)scale(1);}
+    90% {left: 530px;top: 420px;}
+    99% {transform: scaleX(1);}
+    100% {left: 30px;top: 350px;transform: scaleX(-1);}
+}
+#rua{
+    left: 50px; top: 600px;
+    position: absolute;
+    animation-name: rua;
+    animation-duration : 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes rua{
+    0% {left: 50px; top: 600px;}
+    27% {left: 700px; top: 450px;transform: scaleX(1);}
+    55% {left: 1250px; top: 500px;transform: scaleX(1);}
+    56% {transform: scaleX(-1);}
+    75% {left: 800px;top: 580px;transform: scaleX(-1);}
+    100% {left: 50px; top: 600px;transform: scaleX(-1);}
+    
+}
+#tho-lan{
+    left: 20px; top: 10px;
+    position: absolute;
+    animation-name: tho-lan;
+    animation-duration : 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes tho-lan{
+    0% {left: 20px; top: 10px;}
+    30% {left: 100px; top: 500px;}
+    50% {left: 150px; top: 600px;}
+    70% {left: 250px; top: 600px;transform: scaleX(1);}
+    71% {transform: scaleX(-1);}
+    100% {left: 20px; top: 10px;transform: scaleX(-1);}
+}
+#tho-lan2{
+    left: 20px; top: 10px;
+    position: absolute;
+    animation-name: tho-lan2;
+    animation-duration : 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes tho-lan2{
+    0% {left: 1120px; top: 30px;}
+    30% {left: 1300px; top: 570px;transform: scaleX(1);}
+    31% {transform: scaleX(-1);}
+    50% {left: 1150px; top: 530px;transform: scaleX(-1);}
+    51% { transform: scaleX(-1);}
+    70% {left: 1050px; top: 600px;transform: scaleX(-1);}
+    71% {transform: scaleX(1);}
+    100% {left:1120px; top: 30px;transform: scaleX(1);}
+}
+#rongbien1{
+    left: 20px; top: 630px;
+    position: absolute;
+}
+#rongbien2{
+    left: 250px; top: 630px;
+    position: absolute;
+}
+#rongbien3{
+    left: 60px; top: 630px;
+    position: absolute;
+}
+#rongbien4{
+    left: 720px; top: 630px;
+    position: absolute;
+}
+#rongbien5{
+    left: 820px; top: 630px;
+    position: absolute;
+}
+#rongbien7{
+    left: 1320px; top: 630px;
+    position: absolute;
+}
+#rongbien6{
+    left: 1120px; top: 630px;
+    position: absolute;
+}
